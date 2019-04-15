@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "outDir": "dist/main",
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "esModuleInterop": true, 
+    "lib": ["es2017"],
+    "types": ["axios"],
+    "typeRoots": ["node_modules/@types", "types", "node_modules", "."]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "./test/**/*"
+  ]
+}
