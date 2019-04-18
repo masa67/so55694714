@@ -8,7 +8,7 @@
     "declaration": true,
     "inlineSourceMap": true,
     "esModuleInterop": true, 
-    "lib": ["es2017"],
+    "lib": ["es2017", "dom"],
     "types": ["axios"],
     "typeRoots": ["node_modules/@types", "types", "node_modules", "."]
   },
